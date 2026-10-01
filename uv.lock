@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = ">=3.13"
+requires-python = "==3.13.*"
 
 [[package]]
 name = "apineo"
@@ -11,13 +11,13 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pymodbus", specifier = ">=3.15.0" }]
+requires-dist = [{ name = "pymodbus", specifier = ">=3.11.2,<3.12" }]
 
 [[package]]
 name = "pymodbus"
-version = "3.15.0"
+version = "3.11.4"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/e5/b8/03dace16e0e5d1c3eb16e8b9bcce9885f5e8a38db34345ec375cd70ed2e2/pymodbus-3.15.0.tar.gz", hash = "sha256:4c5f715128bfeba59f4c9fb3542b0c32a8afd4b90081111e39c12f7af0c89aae", size = 168238, upload-time = "2026-08-13T09:33:33.049Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/2a/af/bbb716301ab9c60f0702c3cdf72cc0e373286a5648fe16bc4431400489dc/pymodbus-3.11.4.tar.gz", hash = "sha256:6910e385cb6b2f983cd457e9ecee2ff580dbb23cf3d84aefec0845e71edd606a", size = 163422, upload-time = "2025-11-30T10:36:33.717Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/27/7b/fa75ca74270ad3786234c6573f3c6c524441d3eb686882e280c717ce6d04/pymodbus-3.15.0-py3-none-any.whl", hash = "sha256:74d8dee961f23845f18a8481253183504dca05c4fcd102890cd28f4d7ce09267", size = 167602, upload-time = "2026-08-13T09:33:31.474Z" },
+    { url = "https://files.pythonhosted.org/packages/02/80/84c32440949c77f2c201c38e5fa56fd8f19da31bf24df55bdbdaba67767c/pymodbus-3.11.4-py3-none-any.whl", hash = "sha256:89865929f53bd5e32b4076dde00ee86d9b8afb1686832ed74e69d55df22729c3", size = 166002, upload-time = "2025-11-30T10:36:31.992Z" },
 ]
